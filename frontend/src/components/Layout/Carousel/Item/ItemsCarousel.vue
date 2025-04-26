@@ -126,4 +126,9 @@ function onSlideChange(index: number): void {
 
 <style lang="scss" scoped>
 @import '@/assets/styles/Carousel/index.scss';
+
+.swiper-slide-visible .slide-content :deep(.v-btn) {
+  pointer-events: auto;
+    cursor: pointer;
+}
 </style>

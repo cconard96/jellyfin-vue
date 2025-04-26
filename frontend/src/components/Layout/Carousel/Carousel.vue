@@ -23,7 +23,8 @@
       @swiper="(swiper) => swiperInstance = swiper"
       @real-index-change="onSlideChange"
       @touch-start="onTouch"
-      @touch-end="onTouch">
+      @touch-end="onTouch"
+      virtual>
       <slot name="slides" />
     </Swiper>
     <CarouselProgressBar
